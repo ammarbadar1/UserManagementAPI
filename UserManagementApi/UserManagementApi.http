@@ -1,0 +1,50 @@
+@UserManagementApi_HostAddress = http://localhost:5181
+@ContentType = application/json
+@AuthToken = secret-token-123
+
+### Get all users
+GET {{UserManagementApi_HostAddress}}/api/user
+Accept: {{ContentType}}
+
+### Get all users
+GET {{UserManagementApi_HostAddress}}/api/user
+Accept: {{ContentType}}
+Authorization: {{AuthToken}}
+
+###
+
+### Get user by ID
+GET {{UserManagementApi_HostAddress}}/api/user/1
+Accept: {{ContentType}}
+Authorization: {{AuthToken}}
+
+###
+
+### Create a new user
+POST {{UserManagementApi_HostAddress}}/api/user
+Content-Type: {{ContentType}}
+Authorization: {{AuthToken}}
+
+{
+  "id": 1,
+  "name": "TestFirst"
+}
+
+###
+
+### Update user by ID
+PUT {{UserManagementApi_HostAddress}}/api/user/1
+Content-Type: {{ContentType}}
+Authorization: {{AuthToken}}
+
+{
+  "id": 1,
+  "name": "Jane Doe"
+}
+
+###
+
+### Delete user by ID
+DELETE {{UserManagementApi_HostAddress}}/api/user/1
+Accept: {{ContentType}}
+Authorization: {{AuthToken}}

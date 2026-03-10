@@ -1,0 +1,9 @@
+2026-03-10 07:19:57.720 +05:00 [INF] Incoming Request: GET /api/user
+2026-03-10 07:19:57.796 +05:00 [INF] Outgoing Response: GET /api/user - Status Code: 200
+2026-03-10 07:22:16.937 +05:00 [INF] Incoming Request: GET /api/user
+2026-03-10 07:22:16.970 +05:00 [WRN] Authorization header missing.
+2026-03-10 07:22:16.976 +05:00 [INF] Outgoing Response: GET /api/user - Status Code: 401
+2026-03-10 07:22:19.691 +05:00 [INF] Incoming Request: GET /api/user
+2026-03-10 07:22:19.735 +05:00 [INF] Outgoing Response: GET /api/user - Status Code: 200
+2026-03-10 07:22:19.743 +05:00 [INF] Incoming Request: GET /api/user
+2026-03-10 07:22:19.744 +05:00 [INF] Outgoing Response: GET /api/user - Status Code: 200
